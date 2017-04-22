@@ -810,6 +810,15 @@ a.status__content__spoiler-link {
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .column[aria-label=Home] {
+    min-width: 330px;
+    max-width: 660px;
+    width: calc( 100% - 960px );
+  }
+}
+
+
 .ui {
   flex: 0 0 auto;
   display: flex;
